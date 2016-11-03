@@ -57,29 +57,9 @@
                                 </tr>
                                 </thead>
                                 <tbody>
-                                <tr class="gradeX">
-                                    <td>1</td>
-                                    <td>2015-09-22
-                                    </td>
-                                    <td>Kepala Lab</td>
-                                    <td>Laboratorium Dasar 1B</td>
-                                </tr>   
-                                <tr class="gradeX">
-                                    <td>2</td>
-                                    <td>2015-01-01
-                                    </td>
-                                    <td>Dosen Tanpa TT</td>
-                                    <td>Dosen Tetap</td>
-                                </tr>                                           
+                                                      
                                 </tbody>
-                                <tfoot>
-                                <tr>
-                                    <th>No</th>
-                                    <th>TMT</th>
-                                    <th>Jabatan Struktural</th>
-                                    <th>Deskripsi</th>
-                                </tr>
-                                </tfoot>
+                              <?php echo $tampilTable; ?>       
                                 </table>
                                     </div>
 

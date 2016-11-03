@@ -58,26 +58,13 @@
                                 </tr>
                                 </thead>
                                 <tbody>
-                                <tr class="gradeX">
-                                    <td>1</td>
-                                    <td>2009-12-01
-                                    </td>
-                                    <td>III</td>
-                                    <td>0.5</td>
-                                    
-                                    
-                                </tr>                       
+
+
+                                <?php echo $tampilTable; ?>
+
+
                                 </tbody>
-                                <tfoot>
-                                <tr>
-                                    <th>No</th>
-                                    <th>TMT</th>
-                                    <th>Golongan</th>
-									<th>PPh</th>
-                                    
-                                    
-                                </tr>
-                                </tfoot>
+                             
                                 </table>
                                     </div>
 

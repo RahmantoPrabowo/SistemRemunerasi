@@ -21,7 +21,7 @@
                         </div>
                     </li>
                     <li id="home" class="active">
-                        <a href="http://localhost/remun"><i class="fa fa-th-large"></i> <span class="nav-label">Dashboards</span> </a>                        
+                        <a href="http://localhost/sistemremunerasi"><i class="fa fa-th-large"></i> <span class="nav-label">Dashboards</span> </a>                        
                     </li>
                     <li id="riwayat">
                         <a href="#"><i class="fa fa-list"></i> <span class="nav-label">Riwayat</span></a>

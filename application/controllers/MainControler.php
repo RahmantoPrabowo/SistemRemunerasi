@@ -25,19 +25,111 @@ class MainControler extends CI_Controller {
 	}
 	public function riwayatgolongan()
 	{
-		$this->template->view('template/riwayatgolongan');
+
+		$nip="09121402010";
+		$table="";
+		$data = $this->Db_model->get_RiwayatGolongan($nip);
+		$idx=1;
+		foreach ($data as $c) {
+			# code...
+			
+			
+			$table =$table."<tr class='gradeX'>";
+            $table = $table."<td>".$idx."</td>";
+            $table = $table."<td>".$c['tmt']."</td>";
+        	$table = $table."<td>".$c['golongan']."</td>";
+            $table = $table."<td>".$c['pph']."</td>";
+           
+        
+            $table = $table."</tr>";
+            $idx++;
+		}
+		//echo $table;
+		$tableA['tampilTable'] = $table;
+		
+
+
+		$this->template->view('template/riwayatgolongan',$tableA);
 	}
 	public function riwayatpendidikan()
 	{
-		$this->template->view('template/riwayatpendidikan');
+		$nip="09121402010";
+		$table="";
+		$data = $this->Db_model->get_RiwayatPendidikan($nip);
+		$idx=1;
+		foreach ($data as $c) {
+			# code...
+			
+			
+			$table =$table."<tr class='gradeX'>";
+            $table = $table."<td>".$idx."</td>";
+            $table = $table."<td>".$c['tmt']."</td>";
+        	$table = $table."<td>".$c['jenjangpendidikan']."</td>";
+            $table = $table."<td>".$c['gelar']."</td>";
+            $table = $table."<td>".$c['institusi']."</td>";
+           
+        
+            $table = $table."</tr>";
+            $idx++;
+		}
+		//echo $table;
+		$tableA['tampilTable'] = $table;
+		
+
+		$this->template->view('template/riwayatpendidikan',$tableA);
 	}
 	public function riwayatfungsional()
 	{
-		$this->template->view('template/riwayatfungsional');
+
+		$nip="09121402010";
+		$table="";
+		$data = $this->Db_model->get_RiwayatJabatanFungsional($nip);
+		$idx=1;
+		foreach ($data as $c) {
+			# code...
+			
+			
+			$table =$table."<tr class='gradeX'>";
+            $table = $table."<td>".$idx."</td>";
+            $table = $table."<td>".$c['tmt']."</td>";
+        	$table = $table."<td>".$c['jabatan_fungsional']."</td>";
+            
+           
+        
+            $table = $table."</tr>";
+            $idx++;
+		}
+		//echo $table;
+		$tableA['tampilTable'] = $table;
+		
+		$this->template->view('template/riwayatfungsional',$tableA);
 	}
 	public function riwayatstruktural()
 	{
-		$this->template->view('template/riwayatstruktural');
+
+		$nip="09121402010";
+		$table="";
+		$data = $this->Db_model->get_RiwayatJabatanStruktural($nip);
+		$idx=1;
+		foreach ($data as $c) {
+			# code...
+			
+			
+			$table =$table."<tr class='gradeX'>";
+            $table = $table."<td>".$idx."</td>";
+            $table = $table."<td>".$c['tmt']."</td>";
+        	$table = $table."<td>".$c['jabatan_struktural']."</td>";
+        	$table = $table."<td>".$c['deskripsi']."</td>";
+            
+           
+        
+            $table = $table."</tr>";
+            $idx++;
+		}
+		//echo $table;
+		$tableA['tampilTable'] = $table;
+		
+		$this->template->view('template/riwayatstruktural',$tableA);
 	}
 	public function rekapitulasikegiatan()
 	{

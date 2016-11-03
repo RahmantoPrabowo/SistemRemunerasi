@@ -58,26 +58,9 @@
                                 </tr>
                                 </thead>
                                 <tbody>
-                                <tr class="gradeX">
-                                    <td>1</td>
-                                    <td>2008-07-01
-                                    </td>
-                                    <td>S2</td>
-                                    <td>M.T</td>
-                                    <td>ITB</td>
-                                    
-                                </tr>                       
+                               <?php echo $tampilTable; ?>                
                                 </tbody>
-                                <tfoot>
-                                <tr>
-                                    <th>No</th>
-                                    <th>TMT</th>
-                                    <th>Jenjang Pendidikan</th>
-									<th>Gelar</th>
-                                    <th>Institusi</th>
-                                    
-                                </tr>
-                                </tfoot>
+                               
                                 </table>
                                     </div>
 
