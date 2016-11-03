@@ -23,5 +23,9 @@ class MainControler extends CI_Controller {
 
 		$this->template->view('template/riwayatkegiatan')
 	}
+	public function riwayatgolongan()
+	{
+		$this->template->view('template/riwayatgolongan');
+	}
 
 }

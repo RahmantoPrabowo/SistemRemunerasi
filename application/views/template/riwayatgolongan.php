@@ -59,27 +59,14 @@
                                 </thead>
                                 <tbody>
                                 <tr class="gradeX">
-                                    <td>123</td>
-                                    <td>Muhammad Syahroyni
+                                    <td>1</td>
+                                    <td>2009-12-01
                                     </td>
-                                    <td>Mengajar<br>Penelitian</td>
+                                    <td>III</td>
+                                    <td>0.5</td>
                                     
                                     
-                                </tr>
-                                <tr class="gradeX">
-                                    <td>133</td>
-                                    <td>Prabowo Rahmanto
-                                    </td>
-                                    <td>Penelitian</td>
-                                   
-                                    
-                                </tr>
-                                <tr class="gradeX">
-                                    <td>143</td>
-                                    <td>Nizar 
-                                    </td>
-                                    <td>Mengajar</td>                            
-                                </tr>                         
+                                </tr>                       
                                 </tbody>
                                 <tfoot>
                                 <tr>
