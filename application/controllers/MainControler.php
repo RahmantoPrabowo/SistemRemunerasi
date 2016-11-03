@@ -21,11 +21,26 @@ class MainControler extends CI_Controller {
 	public function riwayatkegiatan()
 	{
 
-		$this->template->view('template/riwayatkegiatan')
+		$this->template->view('template/riwayatkegiatan');
 	}
 	public function riwayatgolongan()
 	{
 		$this->template->view('template/riwayatgolongan');
 	}
-
+	public function riwayatpendidikan()
+	{
+		$this->template->view('template/riwayatpendidikan');
+	}
+	public function riwayatfungsional()
+	{
+		$this->template->view('template/riwayatfungsional');
+	}
+	public function riwayatstruktural()
+	{
+		$this->template->view('template/riwayatstruktural');
+	}
+	public function rekapitulasikegiatan()
+	{
+		$this->template->view('template/rekapitulasikegiatan');
+	}
 }

@@ -3,13 +3,13 @@
         <div id="page-content">
             <div class="row wrapper border-bottom white-bg dashboard-header">
                 <div class="col-lg-10">
-                    <h2>List Dosen</h2>
+                    <h2>Riwayat Fungsional</h2>
                     <ol class="breadcrumb">
                         <li>
                             <a href="<?php echo site_url();?>">Home</a>
                         </li>
                         <li class="active">
-                            <strong>Riwayat Kegiatan Dosen - Individu</strong>
+                            <strong>Riwayat Fungsional</strong>
                         </li>
                     </ol>
                 </div>
@@ -23,7 +23,7 @@
                         <div class="col-lg-12">
                             <div class="ibox float-e-margins">
                                 <div class="ibox-title">
-                                    <h5>Kegiatan Dosen</h5>
+                                    <h5>Riwayat Fungsional</h5>
                                     <div class="ibox-tools">
                                         <a class="collapse-link">
                                             <i class="fa fa-chevron-up"></i>
@@ -41,35 +41,7 @@
                                             <i class="fa fa-times"></i>
                                         </a>
                                         <div class="hr-line-dashed"></div>
-                                        <div class="form-group" id="data_4">
-                                            <div class="row">
-                                            <div class="col-md-3">
-                                                <select class="form-control m-b" name="bulan">
-                                                    <option>Semua Bulan</option>
-                                                    <option>Januari</option>
-                                                    <option>Februari</option>
-                                                    <option>Maret</option>
-                                                    <option>April</option>
-                                                    <option>Mei</option>
-                                                    <option>Juni</option>
-                                                    <option>Juli</option>
-                                                    <option>Agustus</option>
-                                                    <option>September</option>
-                                                    <option>Oktober</option>
-                                                    <option>November</option>
-                                                    <option>Desember</option>
-                                                </select>                                            
-                                            </div>
-                                            <div class="col-md-3">
-                                                <select class="form-control m-b" name="tahun">
-                                                    <option>2016</option>
-                                                    <option>2015</option>                                                    
-                                                </select>                                            
-                                            </div>
-                                            <div class="col-md-3">
-                                                <button class="btn btn-info"><span class="fa fa-search"></span>Tampilkan</button>
-                                                <button class="btn btn-info"><span class="fa fa-file-excel-o"></span>Export</button>
-                                            </div>
+                                        
                                     </div>
                                 </div>
                                 <div class="ibox-content">
@@ -79,63 +51,31 @@
                                 <thead>
                                 <tr>
                                     <th class="col-lg-1">No</th>
-                                    <th>id Operator</th>
-                                    <th>Tanggal Kegiatan</th>
-                                    <th>Kode Kegiatan</th>
-                                    <th>Bobot SKS</th>                                    
-                                    <th>SKS</th>
-                                    <th>Jumlah</th>
-                                    <th>Deskripsi</th>
-                                    <th>No. SK/Kontrak</th>
+                                    <th>TMT</th>
+                                    <th>Jabatan Fungsional</th>
+                                    
+                                                                        
                                 </tr>
                                 </thead>
                                 <tbody>
                                 <tr class="gradeX">
                                     <td>1</td>
-                                    <td>Fitriyanti</td>
-                                    <td>2016-01-28</td>
-                                    <td>1</td>
-                                    <td>0.06</td>
-                                    <td>2</td>
-                                    <td>0.12</td>
-                                    <td><span class="fa fa-list"></td>
-                                    <td>0013/UN9.1.9/PP/2016</td>
-                                </tr>
+                                    <td>2015-02-01
+                                    </td>
+                                    <td>Lektor S2</td>
+                                </tr>   
                                 <tr class="gradeX">
                                     <td>2</td>
-                                    <td>Fitriyanti</td>
-                                    <td>2016-01-28</td>
-                                    <td>1</td>
-                                    <td>0.06</td>
-                                    <td>3</td>
-                                    <td>0.18</td>
-                                    <td><span class="fa fa-list"></td>
-                                    <td>0013/UN9.1.9/PP/2016</td>
-                                </tr>
-                                <tr class="gradeX">
-                                    <td>3</td>
-                                    <td>septi</td>
-                                    <td>2016-01-27</td>
-                                    <td>1</td>
-                                    <td>0.06</td>
-                                    <td>2</td>
-                                    <td>0.12</td>
-                                    <td><span class="fa fa-list"></td>
-                                    <td>0013/UN9.1.9/PP/2016</td>
-                                </tr>
+                                    <td>2011-01-01
+                                    </td>
+                                    <td>Asisten Ahli S2</td>
+                                </tr>                                           
                                 </tbody>
                                 <tfoot>
                                 <tr>
                                     <th>No</th>
-                                    <th>id Operator</th>
-                                    <th>Tanggal Kegiatan</th>
-                                    <th>Kode Kegiatan</th>
-                                    <th>Bobot SKS</th>                                    
-                                    <th>SKS</th>
-                                    <th>Jumlah</th>
-                                    <th>Deskripsi</th>
-                                    <th>No. SK/Kontrak</th>
-                                    
+                                    <th>TMT</th>
+                                    <th>Jabatan Fungsional</th>
                                 </tr>
                                 </tfoot>
                                 </table>
