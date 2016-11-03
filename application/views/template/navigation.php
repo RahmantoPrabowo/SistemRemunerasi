@@ -23,23 +23,31 @@
                     <li id="home" class="active">
                         <a href="http://localhost/remun"><i class="fa fa-th-large"></i> <span class="nav-label">Dashboards</span> </a>                        
                     </li>
-                    <li id="riwayat">
-                        <a href="#"><i class="fa fa-list"></i> <span class="nav-label">Riwayat</span></a>
-                        <ul class="nav nav-second-level collapse">
-                            <li><a href="<?php echo site_url('maincontroler/riwayatgolongan');?>">Riwayat Golongan</a></li>
-                            <li><a href="<?php echo site_url('maincontroler/riwayatpendidikan');?>">Riwayat Pendidikan</a></li>
-                            <li><a href="<?php echo site_url('maincontroler/riwayatfungsional');?>">Riwayat Jabatan Fungsional</a></li>
-                            <li><a href="<?php echo site_url('maincontroler/riwayatstruktural');?>">Riwayat Jabatan Struktural</a></li>
-                        </ul>
+                    <li id="dosen">
+                        <a href="<?php echo site_url('maincontroler/datadosen');?>"><i class="fa fa-list"></i> <span class="nav-label">List Dosen</span></a>
                     </li>
-                    <li id="kegiatan">
+                    <li>
                         <a href="#"><i class="fa fa-bar-chart-o"></i> <span class="nav-label">Kegiatan Dosen</span><span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level collapse">
-                            <li><a href="<?php echo site_url('maincontroler/riwayatkegiatan');?>">Riwayat Kegiatan</a></li>
-                            <li><a href="<?php echo site_url('maincontroler/rekapitulasikegiatan');?>">Rekapulasi Kegiatan</a></li>
+                            <li><a href="graph_flot.html">Riwayat - Individu</a></li>
+                            <li><a href="graph_morris.html">Rekapitulasi - Individu</a></li>
                             
                         </ul>
                     </li>
+                    <li>
+                        <a href="#"><i class="fa fa-bar-chart-o"></i> <span class="nav-label">Graphs</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li><a href="graph_flot.html">Flot Charts</a></li>
+                            <li><a href="graph_morris.html">Morris.js Charts</a></li>
+                            <li><a href="graph_rickshaw.html">Rickshaw Charts</a></li>
+                            <li><a href="graph_chartjs.html">Chart.js</a></li>
+                            <li><a href="graph_chartist.html">Chartist</a></li>
+                            <li><a href="c3.html">c3 charts</a></li>
+                            <li><a href="graph_peity.html">Peity Charts</a></li>
+                            <li><a href="graph_sparkline.html">Sparkline Charts</a></li>
+                        </ul>
+                    </li>
+                    
                 </ul>
 
             </div>

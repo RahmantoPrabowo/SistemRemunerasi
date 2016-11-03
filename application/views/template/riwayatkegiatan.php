@@ -23,7 +23,7 @@
                         <div class="col-lg-12">
                             <div class="ibox float-e-margins">
                                 <div class="ibox-title">
-                                    <h5>Kegiatan Dosen</h5>
+                                    <h5>Kegiatan Dose</h5>
                                     <div class="ibox-tools">
                                         <a class="collapse-link">
                                             <i class="fa fa-chevron-up"></i>
@@ -44,6 +44,12 @@
                                         <div class="form-group" id="data_4">
                                             <div class="row">
                                             <div class="col-md-3">
+                                                
+                                                <div class="input-group date">
+                                                    <span class="input-group-addon"><i class="fa fa-calendar"></i></span><input type="text" class="form-control" value="07/01/2014">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
                                                 <select class="form-control m-b" name="bulan">
                                                     <option>Semua Bulan</option>
                                                     <option>Januari</option>
@@ -60,16 +66,7 @@
                                                     <option>Desember</option>
                                                 </select>                                            
                                             </div>
-                                            <div class="col-md-3">
-                                                <select class="form-control m-b" name="tahun">
-                                                    <option>2016</option>
-                                                    <option>2015</option>                                                    
-                                                </select>                                            
-                                            </div>
-                                            <div class="col-md-3">
-                                                <button class="btn btn-info"><span class="fa fa-search"></span>Tampilkan</button>
-                                                <button class="btn btn-info"><span class="fa fa-file-excel-o"></span>Export</button>
-                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="ibox-content">
@@ -78,63 +75,51 @@
                                 <table class="table table-striped table-bordered table-hover dataTables-example" >
                                 <thead>
                                 <tr>
-                                    <th class="col-lg-1">No</th>
-                                    <th>id Operator</th>
-                                    <th>Tanggal Kegiatan</th>
-                                    <th>Kode Kegiatan</th>
-                                    <th>Bobot SKS</th>                                    
-                                    <th>SKS</th>
-                                    <th>Jumlah</th>
-                                    <th>Deskripsi</th>
-                                    <th>No. SK/Kontrak</th>
+                                    <th class="col-lg-1">NIP</th>
+                                    <th>Nama Dosen</th>
+                                    <th>Aktivitas</th>
+                                    <th>Jumlah SKS</th>
+                                    <th>Update Aktivitas</th>                                    
                                 </tr>
                                 </thead>
                                 <tbody>
                                 <tr class="gradeX">
-                                    <td>1</td>
-                                    <td>Fitriyanti</td>
-                                    <td>2016-01-28</td>
-                                    <td>1</td>
-                                    <td>0.06</td>
-                                    <td>2</td>
-                                    <td>0.12</td>
-                                    <td><span class="fa fa-list"></td>
-                                    <td>0013/UN9.1.9/PP/2016</td>
+                                    <td>123</td>
+                                    <td>Muhammad Syahroyni
+                                    </td>
+                                    <td>Mengajar<br>Penelitian</td>
+                                    <td>23 SKS<br>5 SKS</td>
+                                    <td class="center"><button class="btn btn-info " type="button" data-toggle="modal" data-target="#myModal4"><i class="fa fa-paste"></i> Update</button></td>
+                                    
                                 </tr>
                                 <tr class="gradeX">
-                                    <td>2</td>
-                                    <td>Fitriyanti</td>
-                                    <td>2016-01-28</td>
-                                    <td>1</td>
-                                    <td>0.06</td>
-                                    <td>3</td>
-                                    <td>0.18</td>
-                                    <td><span class="fa fa-list"></td>
-                                    <td>0013/UN9.1.9/PP/2016</td>
+                                    <td>133</td>
+                                    <td>Prabowo Rahmanto
+                                    </td>
+                                    <td>Penelitian</td>
+                                    <td>10 SKS</td>
+                                    <td class="center"><button class="btn btn-info " type="button" data-toggle="modal" data-target="#myModal4"><i class="fa fa-paste" ></i> Update</button></td>
+                                    
                                 </tr>
                                 <tr class="gradeX">
-                                    <td>3</td>
-                                    <td>septi</td>
-                                    <td>2016-01-27</td>
-                                    <td>1</td>
-                                    <td>0.06</td>
-                                    <td>2</td>
-                                    <td>0.12</td>
-                                    <td><span class="fa fa-list"></td>
-                                    <td>0013/UN9.1.9/PP/2016</td>
+                                    <td>143</td>
+                                    <td>Nizar 
+                                    </td>
+                                    <td>Mengajar</td>
+                                    <td>21 SKS</td>
+                                    <td class="center"><button class="btn btn-info " type="button" data-toggle="modal" data-target="#myModal4"><i class="fa fa-paste" ></i> Update</button></td>
+                                    
                                 </tr>
+                                
+                                
                                 </tbody>
                                 <tfoot>
                                 <tr>
-                                    <th>No</th>
-                                    <th>id Operator</th>
-                                    <th>Tanggal Kegiatan</th>
-                                    <th>Kode Kegiatan</th>
-                                    <th>Bobot SKS</th>                                    
-                                    <th>SKS</th>
-                                    <th>Jumlah</th>
-                                    <th>Deskripsi</th>
-                                    <th>No. SK/Kontrak</th>
+                                    <th>NIP Dosen</th>
+                                    <th>Nama Dosen</th>
+                                    <th>Aktivitas</th>
+									<th>Jumlah SKS</th>
+                                    <th>Update Aktivitas</th>
                                     
                                 </tr>
                                 </tfoot>
